@@ -1,0 +1,13 @@
+name = "ed-jumper-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ed-jumper-db"
+database_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+[vars]
+ADMIN_PASSWORD_HASH = "Your hash here!!"
+ALLOWED_ORIGINS = "https://your.domain"
+AUTH_SECRET = "Your value here!!"
